@@ -4,10 +4,10 @@
     "slug": "BlindSafe",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/blindSafeLogo2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/blindSafeLogo2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,8 +15,9 @@
       "supportsTablet": true
     },
     "android": {
+      "enableHermes": false,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/blindSafeLogo2.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.prashan99.BlindSafe"
@@ -24,6 +25,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "permissions": [
+      "INTERNET",
+      "CAMERA",
+      "AUDIO_RECORDING",
+      "ACCESS_FINE_LOCATION"
+    ],
+
     "extra": {
       "eas": {
         "projectId": "48910e62-a1c0-4151-9253-29bacb4d071c"
